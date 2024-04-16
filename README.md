@@ -2,10 +2,10 @@
 
 ## Trouble Ticket #1
 
-Problem
+### Problem
 - **R1** cannot form an *EBGP neighbor relationship* with **R2**. 
 
-Desired outcome
+### Desired outcome
 - Configure the network so that **R1** has established a neighbor relationship with **R2**
 - You are only allowed to modify one command on one router to complete this task
 - Do not delete any configuration
