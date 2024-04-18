@@ -77,7 +77,7 @@
                     "image": "c3725-adventerprisek9-mz.124-15.T5.bin",
                     "name": "R1",
                     "ram": 192,
-                    "startup_config": "configs\\i1_startup-config.cfg",
+                    "startup_config": "configs\R1.cfg",
                     "wic0": "WIC-2T"
                 },
                 "router_id": 1,
@@ -128,7 +128,7 @@
                     "image": "c3725-adventerprisek9-mz.124-15.T5.bin",
                     "name": "R2",
                     "ram": 192,
-                    "startup_config": "configs\\i2_startup-config.cfg",
+                    "startup_config": "configs\R2.cfg",
                     "wic0": "WIC-2T"
                 },
                 "router_id": 2,
