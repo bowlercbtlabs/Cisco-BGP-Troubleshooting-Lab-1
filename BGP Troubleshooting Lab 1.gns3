@@ -21,7 +21,7 @@
                 "drawing_id": "825aff9f-88af-457c-bdd0-ae94b2bfe9d5",
                 "locked": false,
                 "rotation": 0,
-                "svg": "<svg height=\"200\" width=\"200\"><ellipse cx=\"100\" cy=\"100\" fill=\"#ffffff\" fill-opacity=\"1.0\" rx=\"100\" ry=\"100\" stroke-dasharray=\"25, 25\" stroke=\"#0000ff\" stroke-width=\"2\" /></svg>",
+                "svg": "<svg width=\"200.0\" height=\"200.0\"><ellipse cx=\"100\" rx=\"100\" cy=\"100\" ry=\"100\" fill=\"#ffffff\" fill-opacity=\"1.0\" stroke-dasharray=\"25, 25\" stroke-width=\"2\" stroke=\"#0000ff\" /></svg>",
                 "x": 59,
                 "y": -65,
                 "z": 0
@@ -230,7 +230,7 @@
                 "template_id": null,
                 "width": 66,
                 "x": 122,
-                "y": 27,
+                "y": 28,
                 "z": 1
             }
         ]
