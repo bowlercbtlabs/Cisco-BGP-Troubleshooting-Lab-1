@@ -1,5 +1,5 @@
 {
-    "name": "old-gns3-.net-files-to-be-converted",
+    "name": "BGP Troubleshooting Lab 1",
     "resources_type": "local",
     "topology": {
         "ellipses": [
@@ -74,7 +74,7 @@
                 "properties": {
                     "console": 2000,
                     "idlepc": "0x60bec7a8",
-                    "image": "c3725-adventerprisek9-mz.124-15.T5.bin",
+                    "image": "c3725-adventerprisek9-mz.124-15.T14.bin",
                     "name": "R1",
                     "ram": 192,
                     "startup_config": "configs\\R1.cfg",
@@ -125,7 +125,7 @@
                 "properties": {
                     "console": 2001,
                     "idlepc": "0x60bec7a8",
-                    "image": "c3725-adventerprisek9-mz.124-15.T5.bin",
+                    "image": "c3725-adventerprisek9-mz.124-15.T14.bin",
                     "name": "R2",
                     "ram": 192,
                     "startup_config": "configs\\R2.cfg",
