@@ -1,0 +1,184 @@
+{
+    "name": "BGP Troubleshooting Lab 1",
+    "resources_type": "local",
+    "topology": {
+        "ellipses": [
+            {
+                "border_color": "#0000ff",
+                "border_style": 2,
+                "color": "#ffffff",
+                "height": 200.0,
+                "transparency": 0,
+                "width": 200.0,
+                "x": 59.0,
+                "y": -65.0
+            },
+            {
+                "border_color": "#ff0000",
+                "border_style": 2,
+                "color": "#ffffff",
+                "height": 200.0,
+                "transparency": 0,
+                "width": 200.0,
+                "x": -290.0,
+                "y": -71.0
+            }
+        ],
+        "links": [
+            {
+                "description": "Link from R1 port Serial0/0 to R2 port Serial0/0",
+                "destination_node_id": 2,
+                "destination_port_id": 7,
+                "id": 1,
+                "source_node_id": 1,
+                "source_port_id": 3
+            }
+        ],
+        "nodes": [
+            {
+                "description": "Router c3725",
+                "id": 1,
+                "label": {
+                    "text": "R1",
+                    "x": 18.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "id": 1,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 2,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to R2 on port Serial0/0",
+                        "id": 3,
+                        "link_id": 1,
+                        "name": "Serial0/0",
+                        "port_number": 16,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 4,
+                        "name": "Serial0/1",
+                        "port_number": 17,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2000,
+                    "idlepc": "0x60bec7a8",
+                    "image": "c3725-adventerprisek9-mz.124-15.T14.image",
+                    "name": "R1",
+                    "ram": 192,
+                    "startup_config": "configs\\R1.cfg",
+                    "wic0": "WIC-2T"
+                },
+                "router_id": 1,
+                "server_id": 1,
+                "type": "C3725",
+                "x": -223.0,
+                "y": 21.0
+            },
+            {
+                "description": "Router c3725",
+                "id": 2,
+                "label": {
+                    "text": "R2",
+                    "x": 19.5,
+                    "y": -25.0
+                },
+                "ports": [
+                    {
+                        "id": 5,
+                        "name": "FastEthernet0/0",
+                        "port_number": 0,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 6,
+                        "name": "FastEthernet0/1",
+                        "port_number": 1,
+                        "slot_number": 0
+                    },
+                    {
+                        "description": "connected to R1 on port Serial0/0",
+                        "id": 7,
+                        "link_id": 1,
+                        "name": "Serial0/0",
+                        "port_number": 16,
+                        "slot_number": 0
+                    },
+                    {
+                        "id": 8,
+                        "name": "Serial0/1",
+                        "port_number": 17,
+                        "slot_number": 0
+                    }
+                ],
+                "properties": {
+                    "console": 2001,
+                    "idlepc": "0x60bec7a8",
+                    "image": "c3725-adventerprisek9-mz.124-15.T14.image",
+                    "name": "R2",
+                    "ram": 192,
+                    "startup_config": "configs\\R2.cfg",
+                    "wic0": "WIC-2T"
+                },
+                "router_id": 2,
+                "server_id": 1,
+                "type": "C3725",
+                "x": 122.0,
+                "y": 27.0
+            }
+        ],
+        "notes": [
+            {
+                "text": "AS 200",
+                "x": 131.0,
+                "y": -34.0
+            },
+            {
+                "text": "AS 100",
+                "x": -219.0,
+                "y": -45.0
+            },
+            {
+                "text": ".2",
+                "x": 96.0,
+                "y": 19.0
+            },
+            {
+                "text": ".1",
+                "x": -153.0,
+                "y": 11.0
+            },
+            {
+                "text": "160.12.12.0/30",
+                "x": -77.0,
+                "y": 0.0
+            },
+            {
+                "text": "BGP Troubleshooting Lab 1",
+                "x": -114.0,
+                "y": -122.0
+            }
+        ],
+        "servers": [
+            {
+                "host": "127.0.0.1",
+                "id": 1,
+                "local": true,
+                "port": 8000
+            }
+        ]
+    },
+    "type": "topology",
+    "version": "1.0"
+}
